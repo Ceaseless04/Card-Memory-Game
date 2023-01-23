@@ -1,0 +1,30 @@
+body {
+    background-color: #9031f9;
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 150px;
+}
+
+.card {
+    background-color: #b779cd;
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.card:active {
+    background-color: blue;
+}
+
+.highlight {
+    background-color: darkorange;
+}
