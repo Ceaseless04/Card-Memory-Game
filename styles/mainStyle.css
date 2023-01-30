@@ -1,11 +1,5 @@
 @import url(/Card-Memory-Game/styles/styles.css);
 
-.page-container {
-    /* justify-content: center;
-    width: 99vw;
-    height: 100vh; */
-}
-
 .button {
     background-color: #f431f9;
     width: 200px;
