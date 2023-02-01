@@ -26,7 +26,7 @@ function sleep(milliseconds) {
     return new Promise(resolve => setTimeout(resolve, milliseconds));
 }
 
-async function showPattern() {
+export async function showPattern() {
     for(const card of pattern) {
         // get the card from the DOM
         const cardElement = document.getElementById(card);
