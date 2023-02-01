@@ -14,3 +14,10 @@
 .button:active {
     background-color: blue;
 }
+
+.links {
+    width: 200px;
+    height: 100px;
+    cursor: pointer;
+    margin: 25px;
+}
